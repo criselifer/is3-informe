@@ -1,0 +1,50 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{swebok}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1047e5656cf5bda8cb1e42372563996c}{%
+           family={Bourque},
+           familyi={B\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{1047e5656cf5bda8cb1e42372563996c}
+      \strng{fullhash}{1047e5656cf5bda8cb1e42372563996c}
+      \strng{bibnamehash}{1047e5656cf5bda8cb1e42372563996c}
+      \strng{authorbibnamehash}{1047e5656cf5bda8cb1e42372563996c}
+      \strng{authornamehash}{1047e5656cf5bda8cb1e42372563996c}
+      \strng{authorfullhash}{1047e5656cf5bda8cb1e42372563996c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{V3}
+      \field{title}{Swebok}
+      \field{year}{2014}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
