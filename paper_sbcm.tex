@@ -51,12 +51,12 @@
 \maketitle
 
 \begin{abstract}
-Este artículo presenta una evaluación íntegra de la calidad del proyecto del Sistema de Gestión de Contenidos (CMS). El análisis de calidad es un componente fundamental en la ingeniería del software, garantizando que el producto satisfaga los estándares de eficiencia, seguridad, mantenibilidad y satisfacción del usuario, asegurando su confiabilidad y óptimo desempeño en diversas condiciones de uso\cite{swebok}. El proceso de evaluación se desglosa en tres etapas principales\cite{swebok} la primera aborda la calidad de concordancia, evaluando el grado de cumplimiento de las especificaciones de diseño. La segunda etapa analiza la calidad del diseño, considerando la tolerancia a fallos y las especificaciones de rendimiento. La tercera y última etapa se centra en la calidad del software, examinando la conformidad con los requisitos funcionales y de rendimiento establecidos. Los resultados del análisis indican claramente áreas de mejora para el proyecto, las cuales serán detalladas en el informe.\\ \\
+Este artículo presenta una evaluación íntegra de la calidad del proyecto del Sistema de Gestión de Contenidos (CMS). El análisis de calidad es un componente fundamental en la ingeniería del software, garantizando que el producto satisfaga los estándares de eficiencia, seguridad, mantenibilidad y satisfacción del usuario, asegurando su confiabilidad y óptimo desempeño en diversas condiciones de uso \cite{swebok}. El proceso de evaluación se desglosa en tres etapas principales \cite{pressman}, la primera aborda la calidad de concordancia, evaluando el grado de cumplimiento de las especificaciones de diseño. La segunda etapa analiza la calidad del diseño, considerando la tolerancia a fallos y las especificaciones de rendimiento. La tercera y última etapa se centra en la calidad del software, examinando la conformidad con los requisitos funcionales y de rendimiento establecidos. Los resultados del análisis indican claramente áreas de mejora para el proyecto, las cuales serán detalladas en el informe.\\ \\
 {\bf Keywords:} Sistema de gestión de contenidos, calidad del software, evaluación de la calidad, especificaciones de diseño.\\
 \end{abstract}
 
 \section{Introducción}
-Las pruebas de software son fundamentales en el ciclo de desarrollo, ya que posibilitan la identificación y corrección de errores, así como la evaluación de la funcionalidad para garantizar la calidad del sistema\cite{swebok}.
+Las pruebas de software son fundamentales en el ciclo de desarrollo, ya que posibilitan la identificación y corrección de errores, así como la evaluación de la funcionalidad para garantizar la calidad del sistema \cite{pressman}.
 
 Al plantear diversos escenarios para las pruebas, se exploran situaciones reales y potenciales del entorno de uso del software. Estos escenarios, que abarcan desde casos de uso típicos hasta situaciones extremas, tienen como objetivo asegurar la fiabilidad y consistencia del software en diferentes condiciones de funcionamiento.
 
@@ -455,7 +455,7 @@ En esta sección, se detallan los resultados obtenidos tras la realización de l
 
 \subsection{Objetivo}
 
-La prueba de estrés tiene como objetivo evaluar el rendimiento del sistema bajo condiciones extremas para identificar sus límites operativos y posibles puntos de fallo. Se analizaron varios parámetros críticos para determinar cómo el sistema responde a cargas elevadas y prolongadas, y los resultados obtenidos ofrecen una visión detallada del comportamiento del sistema en situaciones de alta demanda.
+La prueba de estrés tiene como objetivo evaluar el rendimiento del sistema bajo condiciones extremas para identificar sus límites operativos y posibles puntos de fallo. Se analizaron varios parámetros críticos para determinar cómo el sistema responde a cargas elevadas y prolongadas, y los resultados obtenidos ofrecen una visión detallada del comportamiento del sistema en situaciones de alta demanda \cite{pressman}.
 
 \subsection{Prestaciones}
 
@@ -475,80 +475,132 @@ El equipo utilizado para las pruebas posee las siguientes características:
 
 En esta evaluación, hemos considerado una serie de métricas clave para comprender el rendimiento y la capacidad de respuesta de la aplicación bajo prueba. Las principales métricas que hemos tenido en cuenta incluyen:
 
-\subsubsection{Total requests per second (RPS)}
+\begin{itemize}
 
-Este parámetro mide el número total de solicitudes procesadas por el servidor por segundo. Es un indicador clave de la capacidad de manejo de carga del servidor. Ayuda a evaluar la eficiencia del servidor y su capacidad para manejar tráfico alto.
+\item \textbf{User Count (Número de Usuarios): }
+Esta métrica indica la cantidad actual de usuarios virtuales generados por Locust para simular la carga en el sistema bajo prueba. Cada usuario virtual representa una conexión concurrente al sistema.
 
-\subsubsection{Failures/second}
+\item \textbf{Requests/s (Solicitudes por Segundo): }
+Es la tasa de solicitudes enviadas al sistema por segundo. Indica cuántas solicitudes están siendo procesadas por el sistema en un período de tiempo dado.
 
-Mide el número de solicitudes que fallan por segundo. Estas fallas pueden deberse a varios factores, como errores de servidor, problemas de red, etc. Es crucial para identificar problemas de confiabilidad y estabilidad del sistema bajo prueba.
+\item \textbf{Failures/s (Fallos por Segundo): }
+La tasa de fallos reportados por segundo durante la ejecución de la prueba de carga. Esto incluye solicitudes que no reciben una respuesta exitosa dentro de un umbral definido, como errores HTTP 500 o tiempo de espera excedido.
 
-\subsubsection{Response Times (ms)}
+\item \textbf{Total Request Count (Recuento Total de Solicitudes): }
+El número acumulado de solicitudes enviadas al sistema durante la ejecución de la prueba de carga.
 
-Representa el tiempo que tarda el servidor en responder a una solicitud. Se pueden medir diferentes percentiles y promedios para entender mejor la distribución de los tiempos de respuesta.
+\item \textbf{Total Failure Count (Recuento Total de Fallos): }
+El número total de solicitudes que fallaron durante la ejecución de la prueba de carga. Esto incluye todas las solicitudes que no recibieron una respuesta exitosa.
 
-\subsubsection{95th percentile}
+\item \textbf{Total Median Response Time (Tiempo Total Medio de Respuesta): }
+La mediana del tiempo que tarda el sistema en responder a todas las solicitudes enviadas durante la prueba de carga. Es el valor central de todos los tiempos de respuesta ordenados.
 
-El 95\% de las solicitudes tienen un tiempo de respuesta menor o igual a este valor.
-Ayuda a identificar la experiencia de usuario en condiciones casi máximas de carga.
+\item \textbf{Total Average Response Time (Tiempo Total Promedio de Respuesta): }
+El promedio del tiempo que tarda el sistema en responder a todas las solicitudes enviadas durante la prueba de carga.
 
-\subsubsection{Average response time}
+\item \textbf{Total Min Response Time (Tiempo Total Mínimo de Respuesta): }
+El tiempo mínimo registrado entre todas las respuestas recibidas durante la ejecución de la prueba de carga.
 
-El tiempo de respuesta promedio de todas las solicitudes realizadas durante la prueba. Proporciona una visión general del rendimiento del servidor.
+\item \textbf{Total Max Response Time (Tiempo Total Máximo de Respuesta): }
+El tiempo máximo registrado entre todas las respuestas recibidas durante la ejecución de la prueba de carga.
 
-\subsubsection{Number of users}
+\end{itemize}
 
-Representa el número de usuarios simultáneos simulados durante la prueba. Es fundamental para entender el contexto de la carga y correlacionar otros parámetros de rendimiento con la cantidad de usuarios.
+\begin{table*}
+    \centering
+    \rowcolors{2}{gray!15}{white}
+    \begin{tabular}{*{10}{>{\centering\arraybackslash}m{1.4cm}}}
+    
+        \rowcolor{gray!15}
+        \textbf{User Count} &
+        \textbf{Requests/s} &
+        \textbf{Failures/s} &
+        \textbf{Failures/s (\%)} &
+        \textbf{Total Request Count} &
+        \textbf{Total Failure Count} &
+        \textbf{Total Median Response Time (s)} &
+        \textbf{Total Average Response Time (s)} &
+        \textbf{Total Min Response Time (s)} &
+        \textbf{Total Max Response Time (s)} \\
+        
+		100 & 19.40 & 0.00 & 0.00 & 316 & 0 & 0.77 & 0.99 & 0.17 & 2.94 \\
+		185 & 24.60 & 0.00 & 0.00 & 707 & 9 & 2.10 & 2.06 & 0.17 & 6.14 \\
+		190 & 23.50 & 0.40 & 1.70 & 715 & 13 & 2.10 & 2.09 & 0.17 & 6.14 \\
+		195 & 23.20 & 0.50 & 2.16 & 730 & 23 & 2.20 & 2.15 & 0.17 & 8.20 \\
+		200 & 20.80 & 0.90 & 4.33 & 742 & 31 & 2.2 & 2.20 & 0.17 & 9.21 \\
+		300 & 7.30 & 5.40 & 73.97 & 908 & 148 & 2.4 & 4.03 & 0.17 & 26.94 \\
+		400 & 4.60 & 2.90 & 63.04 & 1013 & 225 & 2.6 & 6.20 & 0.17 & 45.11 \\
+		500 & 4.60 & 3.60 & 78.26 & 1101 & 296 & 2.9 & 8.88 & 0.17 & 63.65 \\
+		600 & 6.50 & 6.20 & 95.38 & 1210 & 400 & 3.5 & 11.31 & 0.02 & 83.10 \\
+		700 & 13.30 & 12.80 & 96.24 & 1487 & 661 & 5.7 & 13.86 & 0.02 & 103.98 \\
+		800 & 22.20 & 21.20 & 95.50 & 1919 & 1067 & 10 & 15.68 & 0.02 & 116.91 \\
+		900 & 32.20 & 31.90 & 99.07 & 2550 & 1682 & 10 & 17.26 & 0.02 & 116.91 \\
+		1000 & 42.50 & 42.10 & 99.06 & 3380 & 2508 & 10 & 18.73 & 0.02 & 123.52 \\
+		1100 & 50.10 & 50.00 & 99.80 & 4371 & 3493 & 10 & 19.56 & 0.02 & 136.16 \\
+		1200 & 60.10 & 59.80 & 99.50 & 5548 & 4657 & 10 & 19.76 & 0.02 & 139.07 \\
+		1300 & 66.70 & 66.70 & 100.00 & 6823 & 5932 & 10 & 19.25 & 0.02 & 139.07 \\
+		1400 & 75.60 & 75.40 & 99.74 & 8320 & 7426 & 10 & 18.58 & 0.02 & 139.07 \\
+		1500 & 82.00 & 81.90 & 99.88 & 9988 & 9093 & 10 & 17.96 & 0.02 & 139.07 \\
+
+    \end{tabular}
+    \caption{Resultados cuantitativos de la prueba de stress}
+    \label{tab:prueba_resultados_tabla}
+\end{table*}
 
 \subsection{Escenario}
 
 Para esta prueba, se pre-cargaron 20 contenidos en el sistema. Aunque estos sistemas están diseñados para manejar una cantidad significativamente mayor de contenidos, esta prueba inicial ofrece una visión general del comportamiento del sistema bajo condiciones controladas.
 
-Además, la prueba se realizó con 2000 usuarios simultáneos, aumentando la carga a una tasa de 5 usuarios por segundo hasta alcanzar los 2000 establecidos. Este escenario de carga simula una situación de alta demanda, pero escalable, brindando datos valiosos sobre la capacidad del sistema para mantener su rendimiento y estabilidad bajo presión.
+Además, la prueba se realizó con 1500 usuarios simultáneos, aumentando la carga a una tasa de 5 usuarios por segundo hasta alcanzar los 1500 establecidos. Este escenario de carga simula una situación de alta demanda, pero escalable, brindando datos valiosos sobre la capacidad del sistema para mantener su rendimiento y estabilidad bajo presión.
 
-\subsubsection{Prueba 1}
+\subsection{Prueba}
 
-Las solicitudes realizadas para esta prueba fueron del tipo GET al inicio del proyecto ("/"). Esta simulación busca reproducir la situación habitual en la que los usuarios acceden al sistema en busca de la publicación de nuevos contenidos.
+Cada usuario realiza dos peticiones, ambas del tipo GET. Entre cada petición, se genera un tiempo de espera aleatorio de entre 1 y 3 segundos para simular de manera más realista el comportamiento de los usuarios, ya que no todos acceden al contenido con la misma frecuencia. La primera petición es un GET a \textbf{/}, y la segunda es un GET a \textbf{/contenidos/ver/9/}. Esta actividad simula el acceso de un usuario a la página principal y posteriormente a un contenido específico que le interesa.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{fig/prueba1_grafico1.jpeg}
-	\caption{Resultados de la prueba de estres para la prueba 1}
-	\label{fig:prueba1_grafico1}
-\end{figure}
 
-En la Figura \ref{fig:prueba1_grafico1} podemos observar que los primeros errores surgen con los primeros 210 usuarios simultáneos, representando un error del 0.6\%. A partir de este punto, la tasa de errores experimenta un notable aumento. Al alcanzar los 1005 usuarios, aproximadamente el 37.3\% de las interacciones resultan en errores. Este porcentaje se incrementa aún más cuando llegamos a los 1705 usuarios, donde nos encontramos con un alarmante 91.4% de errores.
+El Cuadro \ref{tab:prueba_resultados_tabla} muestra los resultados obtenidos de la prueba previamente descrita. Se puede apreciar que alcanzando los 185 usuarios simultáneos, no hay indicios de problemas, manteniendo una media de respuesta por petición de aproximadamente 2 segundos. 
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{fig/prueba1_grafico2.jpeg}
-	\caption{Errores encontrados durante la prueba de estrés del caso de prueba 1}
-	\label{fig:prueba1_grafico2}
-\end{figure}
+Sin embargo, los primeros errores surgen de inmediato cuando se conectan 190 usuarios simultáneamente. Tenemos apenas un 1.7\% de errores por segundo en las peticiones, resultando una cifra bastante insignificante en este punto, ya que quizás solo uno o dos de los 190 usuarios experimenten problemas. 
 
-En la Figura \ref{fig:prueba1_grafico2} se muestran los errores registrados durante la prueba.
+No obstante, a partir de este punto, la tasa de errores comienza a aumentar notablemente. Al alcanzar los 300 usuarios, la situación se vuelve crítica, con un 73.97\% de las peticiones por segundo resultando en errores. Esto sugiere que, muy probablemente, 74 de cada 100 usuarios no podrán acceder al servicio. Además, en este punto, la media de respuesta se sitúa en aproximadamente 4 segundos por cada petición.
 
-\subsubsection{Prueba 2}
-
-Las solicitudes realizadas para esta prueba fueron del tipo GET a un contenido específico ("/contenidos/ver/9/"). Esta simulación busca replicar la situación común en la que los usuarios acceden al sistema para leer un contenido específico que ha sido publicado.
+Con el aumento continuo de la carga, el sistema alcanza un punto donde ya no puede recuperarse: al llegar a los 600 usuarios, el 95.38\% de todas las peticiones resultan en errores, indicando que técnicamente el sistema se encuentra fuera de servicio.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{fig/prueba2_grafico1.jpeg}
-	\caption{Resultados de la prueba de estres para la prueba 2}
-	\label{fig:prueba2_grafico1}
+	\includegraphics[width=0.87\linewidth]{fig/prueba_grafico_estadistico.png}
+	\caption{Gráfico estadístico de la prueba de stress}
+	\label{fig:prueba_grafico_estadistico}
 \end{figure}
 
-En la Figura \ref{fig:prueba2_grafico1} podemos observar que los primeros errores surgen con los primeros 240 usuarios simultáneos, representando un error del 0.4\%. A partir de este punto, se experimenta un aumento progresivo en la tasa de errores. Al alcanzar los 1010 usuarios, aproximadamente el 39\% de las interacciones resultan en errores. Este porcentaje se incrementa aún más cuando llegamos a los 1710 usuarios, donde nos encontramos con un alarmante 86.4\% de errores.
+En la Figura \ref{fig:prueba_grafico_estadistico}, se presentan las gráficas estadísticas correspondientes a la prueba de estrés descrita.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{fig/prueba2_grafico2.jpeg}
-	\caption{Errores encontrados durante la prueba de estrés del caso de prueba 2}
-	\label{fig:prueba2_grafico2}
+	\includegraphics[width=\linewidth]{fig/prueba_errores.png}
+	\caption{Errores encontrados durante la prueba de stress}
+	\label{fig:prueba_errores}
 \end{figure}
 
-En la Figura \ref{fig:prueba2_grafico2} se muestran los errores registrados durante la prueba.
+En la Figura \ref{fig:prueba_errores} se presentan los errores registrados durante la prueba. Profundizando un poco más, al revisar el registro del sistema, identificamos el error \textbf{FATAL:  sorry, too many clients already}, emitido por la base de datos. Este error estuvo presente desde que se detectaron los primeros problemas en las solicitudes hasta la finalización de la ejecución de la prueba.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{fig/prueba_sistema_caido.png}
+	\caption{Sistema caído posterior a la prueba}
+	\label{fig:prueba_sistema_caido}
+\end{figure}
+
+En la Figura \ref{fig:prueba_sistema_caido} se observa que finalizada la prueba de estrés, se intentó acceder nuevamente al sistema sin éxito. Esto respalda la idea de que el sistema se encontraba completamente caído.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{fig/docker.png}
+	\caption{Uso de recursos}
+	\label{fig:prueba_recursos}
+\end{figure}
+
+En la Figura \ref{fig:prueba_recursos} se muestra la utilización de los recursos disponibles del sistema. Resulta notable que no se aprovechen todos los núcleos disponibles cuando la carga es máxima.
 
 \section{Evaluación de los casos de prueba}
 
