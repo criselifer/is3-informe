@@ -69,6 +69,25 @@
       \field{title}{Ingeniería del Software. Un enfoque práctico}
       \field{year}{2010}
     \endentry
+    \entry{radon}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=30b0862c88d5be29fc1f3db4d2b2055f}{%
+           family={{Radon contributors}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{30b0862c88d5be29fc1f3db4d2b2055f}
+      \strng{fullhash}{30b0862c88d5be29fc1f3db4d2b2055f}
+      \strng{bibnamehash}{30b0862c88d5be29fc1f3db4d2b2055f}
+      \strng{authorbibnamehash}{30b0862c88d5be29fc1f3db4d2b2055f}
+      \strng{authornamehash}{30b0862c88d5be29fc1f3db4d2b2055f}
+      \strng{authorfullhash}{30b0862c88d5be29fc1f3db4d2b2055f}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\href{https://radon.readthedocs.io/en/latest/intro.html}{radon.readthedocs.io}}
+      \field{title}{{Radon: A Python tool for code quality analysis}}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

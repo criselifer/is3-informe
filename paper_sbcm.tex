@@ -762,7 +762,7 @@ En el Cuadro \ref{tab:caso5_esperado} se presentan los resultados para los datos
 \end{table}
 \section{Inspección de código}
 \subsection{Complejidad Ciclomática}
-	Utilizando la herramienta radon para analizar la complejidad ciclomática. La complejidad ciclomática se mide con un número seguido de una letra que indica el nivel de complejidad:
+	Utilizando la herramienta radon \cite{radon} para analizar la complejidad ciclomática. La complejidad ciclomática se mide con un número seguido de una letra que indica el nivel de complejidad:
 	\begin{itemize}
 		\item A (1-5): Baja complejidad
 		\item B (6-10): Complejidad moderada
@@ -776,17 +776,16 @@ En el Cuadro \ref{tab:caso5_esperado} se presentan los resultados para los datos
 	En el cuadro \ref{tab:tipos_complejidad}, se presenta los resultados encontrados de la cantidad de funciones o métodos agrupados según el rango\ref{itemize:rangos_compejidad} descrito anteriormente.
 	
 	\begin{table}[ht]
+		\rowcolors{2}{gray!15}{white}
 	    \begin{tabular}{ccc}
-	        \toprule
+	    	\rowcolor{gray!15}
 	        \textbf{Tipo} & \textbf{Cantidad} \\
-	        \midrule
 	        A & 295 \\
 	        B & 17 \\
 	        C & 13 \\
 	        D & 5 \\
 	        E & 3 \\
 	        F & 58 \\
-	        \bottomrule
 	    \end{tabular}
 	    \centering
 	    \caption{Clasificación de complejidad por cantidad de cada tipo}
@@ -808,10 +807,10 @@ Para esta sección se utlizaron las siguientes métricas:
 
 
 	\begin{table}[ht]
+		\rowcolors{2}{gray!15}{white}
 	    \begin{tabular}{ccc}
-	        \toprule
+	    	\rowcolor{gray!15}
 	        \textbf{Tipo} & \textbf{Cantidad} \\
-	        \midrule
 	        Archivos totales & 73 \\
 	        Líneas de código totales(LOC) & 3487 \\
 	        Líneas de código lógicas(LLOC) & 1644 \\
@@ -819,7 +818,6 @@ Para esta sección se utlizaron las siguientes métricas:
 	        Cantidad de comentarios de línea única  & 219 \\
 	        Cantidad de comentarios de múltiples líneas & 686 \\
                   Cantidad de líneas en blanco & 750\\
-	        \bottomrule
 	    \end{tabular}
 	    \centering
 	    \caption{Clasificación de complejidad por cantidad de cada tipo}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.8)  22 JUN 2024 19:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.8)  22 JUN 2024 23:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -767,6 +767,26 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box65
 \@float@everytoks=\toks34
 \@floatcapt=\box66
+)
+(C:\Program Files\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen275
+\lightrulewidth=\dimen276
+\cmidrulewidth=\dimen277
+\belowrulesep=\dimen278
+\belowbottomsep=\dimen279
+\aboverulesep=\dimen280
+\abovetopsep=\dimen281
+\cmidrulesep=\dimen282
+\cmidrulekern=\dimen283
+\defaultaddspace=\dimen284
+\@cmidla=\count429
+\@cmidlb=\count430
+\@aboverulesep=\dimen285
+\@belowrulesep=\dimen286
+\@thisruleclass=\count431
+\@lastruleclass=\count432
+\@thisrulewidth=\dimen287
 ) (anonymize.sty
 Package: anonymize 2013/01/13 Custom Package
 
@@ -781,43 +801,43 @@ Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
 \SOUL@cmds=\toks38
 \SOUL@buffer=\toks39
 \SOUL@token=\toks40
-\SOUL@syllgoal=\dimen275
-\SOUL@syllwidth=\dimen276
-\SOUL@charkern=\dimen277
-\SOUL@hyphkern=\dimen278
-\SOUL@dimen=\dimen279
-\SOUL@dimeni=\dimen280
-\SOUL@minus=\count429
-\SOUL@comma=\count430
-\SOUL@apo=\count431
-\SOUL@grave=\count432
+\SOUL@syllgoal=\dimen288
+\SOUL@syllwidth=\dimen289
+\SOUL@charkern=\dimen290
+\SOUL@hyphkern=\dimen291
+\SOUL@dimen=\dimen292
+\SOUL@dimeni=\dimen293
+\SOUL@minus=\count433
+\SOUL@comma=\count434
+\SOUL@apo=\count435
+\SOUL@grave=\count436
 \SOUL@spaceskip=\skip76
-\SOUL@ttwidth=\dimen281
-\SOUL@uldp=\dimen282
-\SOUL@ulht=\dimen283
+\SOUL@ttwidth=\dimen294
+\SOUL@uldp=\dimen295
+\SOUL@ulht=\dimen296
 )
 (C:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
 (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count433
-\calc@Bcount=\count434
-\calc@Adimen=\dimen284
-\calc@Bdimen=\dimen285
+\calc@Acount=\count437
+\calc@Bcount=\count438
+\calc@Adimen=\dimen297
+\calc@Bdimen=\dimen298
 \calc@Askip=\skip77
 \calc@Bskip=\skip78
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count435
+\calc@Ccount=\count439
 \calc@Cskip=\skip79
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
 rycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\highlight@previous=\dimen286
-\highlight@current=\dimen287
+\highlight@previous=\dimen299
+\highlight@current=\dimen300
 \item@width=\skip80
 ) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
@@ -826,13 +846,13 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 )
 (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2024/01/07 v24.1 The Babel package
-\babel@savecnt=\count436
-\U@D=\dimen288
+\babel@savecnt=\count440
+\U@D=\dimen301
 \l@unhyphenated=\language80
 
 (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read4
-\bbl@dirlevel=\count437
+\bbl@dirlevel=\count441
 
 *************************************
 * Local config file bblopts.cfg used
@@ -844,7 +864,7 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 (C:\Program Files\MiKTeX\tex/latex/babel-spanish\spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks43
-\es@quotdepth=\count438
+\es@quotdepth=\count442
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
@@ -861,10 +881,10 @@ Package biblatex Warning: Load 'inputenc' before biblatex.
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count439
-\@quotereset=\count440
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
-9.
+\@quotelevel=\count443
+\@quotereset=\count444
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+1.
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -878,24 +898,24 @@ LaTeX Info: Redefining \% on input line 18.
 )
 \openout1 = `paper_sbcm.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -937,16 +957,16 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count441
-\scratchdimen=\dimen289
+\scratchcounter=\count445
+\scratchdimen=\dimen302
 \scratchbox=\box67
-\nofMPsegments=\count442
-\nofMParguments=\count443
+\nofMPsegments=\count446
+\nofMParguments=\count447
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count444
-\MPscratchDim=\dimen290
-\MPnumerator=\count445
-\makeMPintoPDFobject=\count446
+\MPscratchCnt=\count448
+\MPscratchDim=\dimen303
+\MPnumerator=\count449
+\makeMPintoPDFobject=\count450
 \everyMPtoPDFconversion=\toks45
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -964,7 +984,7 @@ G,.JBIG2,.JB2,.eps]
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 49.
+Package hyperref Info: Link coloring OFF on input line 51.
  (paper_sbcm.out) (paper_sbcm.out)
 \@outlinefile=\write5
 \openout5 = `paper_sbcm.out'.
@@ -983,50 +1003,50 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'paper_sbcm.bbl' found.
 
 (paper_sbcm.bbl)
-Package biblatex Info: Reference section=0 on input line 49.
-Package biblatex Info: Reference segment=0 on input line 49.
-LaTeX Info: Redefining \sptext on input line 49.
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
+Package biblatex Info: Reference section=0 on input line 51.
+Package biblatex Info: Reference segment=0 on input line 51.
+LaTeX Info: Redefining \sptext on input line 51.
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 52.
+(Font)              <7> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 52.
+(Font)              <5> on input line 54.
 
-Underfull \hbox (badness 2080) in paragraph at lines 54--56
+Underfull \hbox (badness 2080) in paragraph at lines 56--58
 \OT1/ptm/m/it/10 se-gu-ri-dad, man-te-ni-bi-li-dad y sa-tis-fac-ci[]on del usua
 -rio,
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 54--56
+Underfull \hbox (badness 1867) in paragraph at lines 56--58
 \OT1/ptm/m/it/10 ase-gu-ran-do su con-fia-bi-li-dad y []opti-mo des-em-pe[]no e
 n
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 54--56
+Underfull \hbox (badness 1270) in paragraph at lines 56--58
 \OT1/ptm/m/it/10 fun-cio-na-les y de ren-di-mien-to es-ta-ble-ci-dos. Los re-su
 l-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 65--66
+Underfull \hbox (badness 1019) in paragraph at lines 67--68
 []\OT1/ptm/m/n/10 Las prue-bas de estr[]es. So-me-ten al sis-te-ma a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
@@ -1037,172 +1057,172 @@ m Files/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
-19.
+21.
 
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-Overfull \hbox (4.76376pt too wide) in paragraph at lines 132--132
+Overfull \hbox (4.76376pt too wide) in paragraph at lines 134--134
 []|\OT1/ptm/b/n/10 Cumplimiento| 
  []
 
 
-Overfull \hbox (0.86421pt too wide) in paragraph at lines 133--133
+Overfull \hbox (0.86421pt too wide) in paragraph at lines 135--135
 []|\OT1/ptm/m/n/10 Navegabilidad| 
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 133--134
+Underfull \hbox (badness 2443) in paragraph at lines 135--136
 []|\OT1/ptm/m/n/10 Se en-con-tra-ron dos
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 133--134
+Underfull \hbox (badness 1681) in paragraph at lines 135--136
 \OT1/ptm/m/n/10 con el que se ten-
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 133--134
+Underfull \hbox (badness 3179) in paragraph at lines 135--136
 \OT1/ptm/m/n/10 ni-bles pa-ra su rol,
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 133--134
+Underfull \hbox (badness 5696) in paragraph at lines 135--136
 \OT1/ptm/m/n/10 co-mo ser[]^^Pa el ca-
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 133--134
+Underfull \hbox (badness 2990) in paragraph at lines 135--136
 \OT1/ptm/m/n/10 so del Au-tor tie-ne
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 133--134
+Underfull \hbox (badness 1810) in paragraph at lines 135--136
 \OT1/ptm/m/n/10 con-te-ni-do, pe-ro pa-
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 133--134
+Underfull \hbox (badness 2478) in paragraph at lines 135--136
 \OT1/ptm/m/n/10 ca-te-gor[]^^Pa, ver Kan-
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 133--134
+Underfull \hbox (badness 3179) in paragraph at lines 135--136
 \OT1/ptm/m/n/10 ban, den-tro de es-
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 133--134
+Underfull \hbox (badness 2343) in paragraph at lines 135--136
 \OT1/ptm/m/n/10 ta sec-ci[]on se tie-ne
  []
 
 
-Underfull \hbox (badness 3000) in paragraph at lines 133--134
+Underfull \hbox (badness 3000) in paragraph at lines 135--136
 \OT1/ptm/m/n/10 la op-ci[]on de crear
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 133--134
+Underfull \hbox (badness 2452) in paragraph at lines 135--136
 \OT1/ptm/m/n/10 bi[]en ocu-rre cuan-do
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 133--134
+Underfull \hbox (badness 1178) in paragraph at lines 135--136
 \OT1/ptm/m/n/10 te-ma per-mi-te ver y
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 133--134
+Underfull \hbox (badness 2932) in paragraph at lines 135--136
 \OT1/ptm/m/n/10 uti-li-zar es-ta op-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 []|\OT1/ptm/m/n/10 Disposici[]on
  []
 
 
-Overfull \hbox (2.54376pt too wide) in paragraph at lines 135--135
+Overfull \hbox (2.54376pt too wide) in paragraph at lines 137--137
 []|\OT1/ptm/m/n/10 Disponibilidad
  []
 
 
-Underfull \hbox (badness 6461) in paragraph at lines 135--136
+Underfull \hbox (badness 6461) in paragraph at lines 137--138
 []|\OT1/ptm/m/n/10 No se en-con-tra-ron
  []
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 135--136
+Underfull \hbox (badness 4832) in paragraph at lines 137--138
 \OT1/ptm/m/n/10 ejem-plos cla-ros de
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 136--137
+Underfull \hbox (badness 3769) in paragraph at lines 138--139
 []|\OT1/ptm/m/n/10 No se en-contr[]o la
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 136--137
+Underfull \hbox (badness 3503) in paragraph at lines 138--139
 \OT1/ptm/m/n/10 pe-ro per-mi-te fil-trar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 \OT1/ptm/m/n/10 los con-te-ni-dos en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 \OT1/ptm/m/n/10 gru-pos co-mo por
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 \OT1/ptm/m/n/10 ca-te-gor[]^^Pa, sub-ca-te-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 \OT1/ptm/m/n/10 fe-cha por de-fec-to,
  []
 
 
-Overfull \hbox (1.85667pt too wide) in paragraph at lines 130--138
+Overfull \hbox (1.85667pt too wide) in paragraph at lines 132--140
  [][] 
  []
 
 
-Overfull \hbox (4.76376pt too wide) in paragraph at lines 147--147
+Overfull \hbox (4.76376pt too wide) in paragraph at lines 149--149
 []|\OT1/ptm/b/n/10 Cumplimiento| 
  []
 
 
-Underfull \hbox (badness 8075) in paragraph at lines 148--149
+Underfull \hbox (badness 8075) in paragraph at lines 150--151
 []|\OT1/ptm/m/n/10 Adecuado, uti-li-zan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
 []|\OT1/ptm/m/n/10 Tama[]no de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 []|\OT1/ptm/m/n/10 Utiliza im[]age-nes,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 []\OT1/ptm/m/n/10 ^^Pco-nos y gr[]afi-cos
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 151--152
+Underfull \hbox (badness 1728) in paragraph at lines 153--154
 \OT1/ptm/m/n/10 seg[]un sean re-que-ri-
  []
 
 
-Overfull \hbox (1.85667pt too wide) in paragraph at lines 145--153
+Overfull \hbox (1.85667pt too wide) in paragraph at lines 147--155
  [][] 
  []
 
@@ -1210,107 +1230,107 @@ Overfull \hbox (1.85667pt too wide) in paragraph at lines 145--153
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-Overfull \hbox (4.76376pt too wide) in paragraph at lines 162--162
+Overfull \hbox (4.76376pt too wide) in paragraph at lines 164--164
 []|\OT1/ptm/b/n/10 Cumplimiento| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--163
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\OT1/ptm/m/n/10 Cantidad de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--164
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 []|\OT1/ptm/m/n/10 Facilidad de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 []|\OT1/ptm/m/n/10 Indicaci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 \OT1/ptm/m/n/10 de cam-pos
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 166--167
+Underfull \hbox (badness 2653) in paragraph at lines 168--169
 []|\OT1/ptm/m/n/10 La ma-yor[]^^Pa de los
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 \OT1/ptm/m/n/10 cam-pos ne-ce-sa-rios
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 166--167
+Underfull \hbox (badness 2469) in paragraph at lines 168--169
 \OT1/ptm/m/n/10 un cam-po no va-li-
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 166--167
+Underfull \hbox (badness 2653) in paragraph at lines 168--169
 \OT1/ptm/m/n/10 un error cr[]^^Pti-co en
  []
 
 
-Overfull \hbox (1.85667pt too wide) in paragraph at lines 160--168
+Overfull \hbox (1.85667pt too wide) in paragraph at lines 162--170
  [][] 
  []
 
 
-Overfull \hbox (4.76376pt too wide) in paragraph at lines 177--177
+Overfull \hbox (4.76376pt too wide) in paragraph at lines 179--179
 []|\OT1/ptm/b/n/10 Cumplimiento| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 []|\OT1/ptm/m/n/10 Formato de
  []
 
 
-Underfull \hbox (badness 5637) in paragraph at lines 178--179
+Underfull \hbox (badness 5637) in paragraph at lines 180--181
 []|\OT1/ptm/m/n/10 Adecuado pa-ra re-
  []
 
 
-Overfull \hbox (1.85667pt too wide) in paragraph at lines 175--181
+Overfull \hbox (1.85667pt too wide) in paragraph at lines 177--183
  [][] 
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 198--199
+Underfull \hbox (badness 3849) in paragraph at lines 200--201
 []|\OT1/ptm/m/n/10 No exis-ten va-li-da-cio-nes
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 199--199
+Underfull \hbox (badness 1281) in paragraph at lines 201--201
 []|\OT1/ptm/m/n/10 Restricci[]on del ti-po
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 199--200
+Underfull \hbox (badness 2875) in paragraph at lines 201--202
 \OT1/ptm/m/n/10 tric-cio-nes ra-zo-na-bles en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
 \OT1/ptm/m/n/10 po-si-bles per-mi-ti-dos
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 202--203
+Underfull \hbox (badness 2941) in paragraph at lines 204--205
 []|\OT1/ptm/m/n/10 Existe la res-tric-ci[]on de
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 203--204
+Underfull \hbox (badness 1248) in paragraph at lines 205--206
 []|\OT1/ptm/m/n/10 Cuenta con res-tric-cio-nes
  []
 
 
-Overfull \hbox (1.85667pt too wide) in paragraph at lines 191--207
+Overfull \hbox (1.85667pt too wide) in paragraph at lines 193--209
  [][] 
  []
 
@@ -1318,32 +1338,32 @@ Overfull \hbox (1.85667pt too wide) in paragraph at lines 191--207
 Underfull \vbox (badness 1946) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 []|\OT1/ptm/m/n/10 Existen de-pen-den-cias
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 []|\OT1/ptm/m/n/10 Forma Nor-mal
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 221--221
+Underfull \hbox (badness 2744) in paragraph at lines 223--223
 []|\OT1/ptm/m/n/10 Cuarta For-ma Nor-
  []
 
 
-Overfull \hbox (1.85667pt too wide) in paragraph at lines 214--223
+Overfull \hbox (1.85667pt too wide) in paragraph at lines 216--225
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 []|\OT1/ptm/m/n/10 Redundancias crea-
  []
 
 
-Overfull \hbox (1.85667pt too wide) in paragraph at lines 230--237
+Overfull \hbox (1.85667pt too wide) in paragraph at lines 232--239
  [][] 
  []
 
@@ -1351,17 +1371,17 @@ Overfull \hbox (1.85667pt too wide) in paragraph at lines 230--237
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Underfull \hbox (badness 1199) in paragraph at lines 248--248
+Underfull \hbox (badness 1199) in paragraph at lines 250--250
 []|\OT1/ptm/m/n/10 Confecci[]on est[]andar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
 []|\OT1/ptm/m/n/10 Reutilizaci[]on de
  []
 
 
-Overfull \hbox (1.85667pt too wide) in paragraph at lines 244--251
+Overfull \hbox (1.85667pt too wide) in paragraph at lines 246--253
  [][] 
  []
 
@@ -1370,65 +1390,65 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
-68.
+70.
 
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 3088) in paragraph at lines 504--506
+Underfull \hbox (badness 3088) in paragraph at lines 506--508
 []\OT1/ptm/b/n/10 Total Max Res-pon-se Ti-me (Tiem-po To-tal
  []
 
 
-Overfull \hbox (5.16557pt too wide) in paragraph at lines 516--516
+Overfull \hbox (5.16557pt too wide) in paragraph at lines 518--518
  []|\OT1/ptm/b/n/10 Requests/s| 
  []
 
 
-Overfull \hbox (1.40565pt too wide) in paragraph at lines 517--517
+Overfull \hbox (1.40565pt too wide) in paragraph at lines 519--519
  []|\OT1/ptm/b/n/10 Failures/s| 
  []
 
 
-Overfull \hbox (1.40565pt too wide) in paragraph at lines 518--518
+Overfull \hbox (1.40565pt too wide) in paragraph at lines 520--520
  []|\OT1/ptm/b/n/10 Failures/s 
  []
 
 
-Overfull \hbox (28.9494pt too wide) in paragraph at lines 512--546
+Overfull \hbox (28.9494pt too wide) in paragraph at lines 514--548
  [][] 
  []
 
 [6]
-<fig/prueba_grafico_estadistico.png, id=169, 1445.4pt x 1129.21875pt>
+<fig/prueba_grafico_estadistico.png, id=181, 1445.4pt x 1129.21875pt>
 File: fig/prueba_grafico_estadistico.png Graphic file (type png)
 <use fig/prueba_grafico_estadistico.png>
 Package pdftex.def Info: fig/prueba_grafico_estadistico.png  used on input line
- 571.
+ 573.
 (pdftex.def)             Requested size: 202.9808pt x 158.57199pt.
 
-Underfull \hbox (badness 2285) in paragraph at lines 572--572
+Underfull \hbox (badness 2285) in paragraph at lines 574--574
 [][]|\OT1/phv/b/n/8 Gr[]afi-co es-tad^^S^^Psti-co de la prue-ba de
  []
 
 [7 <./fig/prueba_grafico_estadistico.png>]
-<fig/prueba_errores.png, id=180, 1144.87724pt x 359.54324pt>
+<fig/prueba_errores.png, id=192, 1144.87724pt x 359.54324pt>
 File: fig/prueba_errores.png Graphic file (type png)
 <use fig/prueba_errores.png>
-Package pdftex.def Info: fig/prueba_errores.png  used on input line 580.
+Package pdftex.def Info: fig/prueba_errores.png  used on input line 582.
 (pdftex.def)             Requested size: 233.31259pt x 73.26794pt.
-<fig/prueba_sistema_caido.png, id=182, 359.54324pt x 66.2475pt>
+<fig/prueba_sistema_caido.png, id=194, 359.54324pt x 66.2475pt>
 File: fig/prueba_sistema_caido.png Graphic file (type png)
 <use fig/prueba_sistema_caido.png>
-Package pdftex.def Info: fig/prueba_sistema_caido.png  used on input line 589.
+Package pdftex.def Info: fig/prueba_sistema_caido.png  used on input line 591.
 (pdftex.def)             Requested size: 233.31259pt x 42.9896pt.
-<fig/docker.png, id=184, 646.21425pt x 269.808pt>
+<fig/docker.png, id=196, 646.21425pt x 269.808pt>
 File: fig/docker.png Graphic file (type png)
 <use fig/docker.png>
-Package pdftex.def Info: fig/docker.png  used on input line 598.
+Package pdftex.def Info: fig/docker.png  used on input line 600.
 (pdftex.def)             Requested size: 233.31259pt x 97.41075pt.
 
-Underfull \hbox (badness 2538) in paragraph at lines 620--621
+Underfull \hbox (badness 2538) in paragraph at lines 622--623
 []|\OT1/ptm/m/n/10 Se pro-por-cio-nan plan-ti-llas
  []
 
@@ -1437,17 +1457,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8 <./fig/prueba_errores.png> <./fig/prueba_sistema_caido.png> <./fig/docker.p
 ng>]
-Underfull \hbox (badness 2103) in paragraph at lines 668--669
+Underfull \hbox (badness 2103) in paragraph at lines 670--671
 \OT1/ptm/m/n/10 tro del kan-ban dis-po-ni-ble
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 686--687
+Underfull \hbox (badness 1917) in paragraph at lines 688--689
 \OT1/ptm/m/n/10 ca-do pa-ra que los dem[]as
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 722--723
+Underfull \hbox (badness 1371) in paragraph at lines 724--725
 \OT1/ptm/m/n/10 del per-fil del usua-rio que
  []
 
@@ -1455,7 +1475,20 @@ Underfull \hbox (badness 1371) in paragraph at lines 722--723
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-[10
+LaTeX Font Info:    Trying to load font information for OML+ptm on input line 7
+72.
+
+(C:\Program Files\MiKTeX\tex/latex/psnfss\omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 772.
+
+Overfull \hbox (7.62471pt too wide) in paragraph at lines 811--823
+ [][] 
+ []
+
+[10] [11
 
 ] (paper_sbcm.aux
 LaTeX Info: Redefining \sptext on input line 18.
@@ -1467,27 +1500,28 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `paper_sbcm.out' has not changed.
-(rerunfilecheck)             Checksum: D7B968221EC20381488B29CB43108ADD;4742.
+(rerunfilecheck)             Checksum: 314ED33438CC63914DF2A094A030EAE3;5364.
 Package logreq Info: Writing requests to 'paper_sbcm.run.xml'.
 \openout1 = `paper_sbcm.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30731 strings out of 474485
- 585298 string characters out of 5753544
+ 30835 strings out of 474485
+ 587064 string characters out of 5753544
  1990542 words of memory out of 5000000
- 52516 multiletter control sequences out of 15000+600000
+ 52606 multiletter control sequences out of 15000+600000
  573916 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,93p,1098b,1804s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program 
-Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts
-/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb
-i8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program F
-iles/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper_sbcm.pdf (10 pages, 321800 bytes).
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX
+/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/t
+imes/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/
+Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/
+fonts/type1/urw/times/utmri8a.pfb>
+Output written on paper_sbcm.pdf (11 pages, 339389 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
+ 257 words of extra memory for PDF output out of 10000 (max. 10000000)
 
