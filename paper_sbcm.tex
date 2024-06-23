@@ -10,6 +10,8 @@
 \usepackage[table]{xcolor}
 \usepackage{float}
 
+
+\usepackage{booktabs} % Para líneas de tabla más profesionales
 % -------------------------------------------------------
 % Packages that facilitate double-blind peer review
 % Comment the first line and uncomment the second to remove double-blindness
@@ -758,8 +760,78 @@ En el Cuadro \ref{tab:caso5_esperado} se presentan los resultados para los datos
     \caption{Datos no esperados}
     \label{tab:caso5_no_esperado}
 \end{table}
+\section{Inspección de código}
+\subsection{Complejidad Ciclomática}
+	Utilizando la herramienta radon para analizar la complejidad ciclomática. La complejidad ciclomática se mide con un número seguido de una letra que indica el nivel de complejidad:
+	\begin{itemize}
+		\item A (1-5): Baja complejidad
+		\item B (6-10): Complejidad moderada
+		\item C (11-20): Alta complejidad
+		\item D (21-30): Muy alta complejidad
+		\item E (31-40): Complejidad extrema
+		\item F (\textgreater40): Complejidad inaceptable
+		\label{itemize:rangos_compejidad}	
+	\end{itemize}
+	
+	En el cuadro \ref{tab:tipos_complejidad}, se presenta los resultados encontrados de la cantidad de funciones o métodos agrupados según el rango\ref{itemize:rangos_compejidad} descrito anteriormente.
+	
+	\begin{table}[ht]
+	    \begin{tabular}{ccc}
+	        \toprule
+	        \textbf{Tipo} & \textbf{Cantidad} \\
+	        \midrule
+	        A & 295 \\
+	        B & 17 \\
+	        C & 13 \\
+	        D & 5 \\
+	        E & 3 \\
+	        F & 58 \\
+	        \bottomrule
+	    \end{tabular}
+	    \centering
+	    \caption{Clasificación de complejidad por cantidad de cada tipo}
+	    \label{tab:tipos_complejidad}
+	\end{table}
+
+\subsection{Métricas de linea de código y comentarios}
+Para esta sección se utlizaron las siguientes métricas:
+\begin{itemize}
+\item\textbf{Archivos totales:} Indica la cantidad total de archivos analizados.
+\item\textbf{Total de líneas de código (LOC):} Es la suma total de todas las líneas de código encontradas en los archivos. Es el número total de líneas de código en bruto, incluyendo comentarios y líneas en blanco.
+\item\textbf{Total de líneas de código legibles (LLOC):} Representa las líneas de código que contienen contenido real o legible del programa. Generalmente excluye comentarios y líneas en blanco.
+\item\textbf{Total de líneas de código fuente (SLOC):} Similar a LLOC, pero podría incluir líneas de código generadas automáticamente (por ejemplo, por herramientas o plantillas), además del código escrito a mano.
+\item\textbf{Total de líneas de comentarios de línea única:} Indica la cantidad de líneas que contienen comentarios en una sola línea.
+\item\textbf{Total de líneas de comentarios de múltiples líneas:} Representa la cantidad de líneas que contienen comentarios que ocupan varias líneas.
+\end{itemize}
+
+ En la siguiente tabla \ref{tab:cantidad_LDC_Comentarios} , se presentan los resultados obtenidos que reflejan estas métricas de análisis de código.
+
+
+	\begin{table}[ht]
+	    \begin{tabular}{ccc}
+	        \toprule
+	        \textbf{Tipo} & \textbf{Cantidad} \\
+	        \midrule
+	        Archivos totales & 73 \\
+	        Líneas de código totales(LOC) & 3487 \\
+	        Líneas de código lógicas(LLOC) & 1644 \\
+	        Líneas de código fuente(SLOC) & 1831 \\
+	        Cantidad de comentarios de línea única  & 219 \\
+	        Cantidad de comentarios de múltiples líneas & 686 \\
+                  Cantidad de líneas en blanco & 750\\
+	        \bottomrule
+	    \end{tabular}
+	    \centering
+	    \caption{Clasificación de complejidad por cantidad de cada tipo}
+	    \label{tab:cantidad_LDC_Comentarios}
+	\end{table}
 
 \section{Conclusiones}
+Las pruebas de software desempeñan un papel fundamental en el desarrollo del Sistema de Gestión de Contenidos, garantizando no solo la detección y corrección de errores, sino también la evaluación exhaustiva de la funcionalidad para asegurar la calidad del sistema. \newline
+El proyecto se ha centrado en la implementación de diversos tipos de pruebas y técnicas especializadas para cumplir con los estándares esperados. Se han utilizado pruebas de diferentes escenarios, desde casos de uso típicos hasta situaciones específicas, asegurando así la fiabilidad y consistencia del software. \newline
+Además de las pruebas estándar, se han aplicado técnicas como las pruebas de interfaz gráfica para validar la usabilidad y el diseño visual, y las pruebas de estrés para evaluar la estabilidad y capacidad de respuesta bajo condiciones extremas. La verificación del modelo de datos ha sido crucial para asegurar la integridad de la estructura de datos y prevenir errores que puedan comprometer la información. \newline
+El equipo de pruebas ha seguido una metodología bien definida que incluyó desde el contacto inicial con los responsables del sistema hasta la planificación detallada de actividades y la ejecución meticulosa de las pruebas. \newline
+Durante la ejecución, se documentaron los hallazgos obtenidos en cada fase de las pruebas, garantizando una recopilación precisa y oportuna de los resultados y observaciones relevantes. Finalmente, en una reunión final se revisaron y discutieron los hallazgos, sacando conclusiones e identificando lecciones aprendidas.
 
 \printbibliography
 
